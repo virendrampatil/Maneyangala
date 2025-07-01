@@ -126,8 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     'experience-event': {
       title: 'Event Space',
-      description: `MANTAPA - Featuring a traditional design with terracotta tile roof, this open air structure is a perfect center piece for any event or retreat.\n
-      AMPHITHEATRE- This serene amphitheater amidst our tall green trees is the ideal spot for hosting dreamy wedding events, off-beat corporate gatherings, fun sport meets or a rejuvenating yoga retreat!`,
+      description: 'MANTAPA - Featuring a traditional design with terracotta tile roof, this open air structure is a perfect center piece for any event or retreat.<br>AMPHITHEATER- This serene amphitheater amidst our tall green trees is the ideal spot for hosting dreamy wedding events, off-beat corporate gatherings, fun sport meets or a rejuvenating yoga retreat!',
       features: [
         'Upto 24hrs - Rs 85,000',
         '100 chairs included',
@@ -164,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Update description
         const roomDescription = document.getElementById('roomDescription');
         if (roomDescription) {
-          roomDescription.textContent = room.description;
+          roomDescription.innerHTML = room.description;
         }
 
         // Update features

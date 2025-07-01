@@ -609,12 +609,10 @@ section {
   place-content: center;
   top: -48px;
   z-index: 1;
-  color: red;
   font-size: 0.75rem;
   font-weight: 600;
   background-color: #1b1b1bd8;
-  color: #e0fae6;
-  display: inline-block;
+  color: #e0fae6;  
   padding: 6px;
   text-align: center;
   right: 0;
@@ -645,10 +643,10 @@ section {
     height: 100%;
   }
 
-  .veg-heading,
+  /* .veg-heading,
   .veg-title {
     position: static;
-  }
+  } */
 }
 
 @media (max-width: 767.98px) {
@@ -664,10 +662,10 @@ section {
     height: 40vh;
   }
 
-  .veg-heading,
+  /* .veg-heading,
   .veg-title {
     position: static;
-  }
+  } */
 }
 
 @media (max-width: 575.98px) {
@@ -681,10 +679,10 @@ section {
     width: 30px;
   }
 
-  .veg-heading,
+  /* .veg-heading,
   .veg-title {
     position: static;
-  }
+  } */
 }
 
 /* Scroll Animation */
@@ -693,29 +691,3 @@ section {
   padding-bottom: 7rem;
 }
 
-@keyframes example {
-  0% {
-    scale: 0;
-  }
-  25% {
-    scale: 1;
-  }
-  50% {
-    scale: 2;
-  }
-  75% {
-    scale: 1;
-  }
-  100% {
-    scale: 0;
-  }
-}
-
-/* The element to apply the animation to */
-/* .veg-title {
-transform: scale(1);
-
-animation-name: example;
-animation-duration: 4s;
-animation-iteration-count: infinite;
-} */
