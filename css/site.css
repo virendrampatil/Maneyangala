@@ -200,7 +200,7 @@ body {
   object-fit: cover;
 }
 
-.hero-overlay {
+/* .hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -211,7 +211,7 @@ body {
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.6)
   );
-}
+} */
 
 .hero-content {
   z-index: 1;
