@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function () {
         './images/BAT_5838.webp',
         './images/BAT_5860.webp',
         './images/BAT_6090.webp',
-        // 'https://maneyangala.b-cdn.net/images/event/BAT_6090.jpg'
+        './images/IMG_2728.webp'
       ]
     }
   };
