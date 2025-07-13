@@ -116,12 +116,12 @@ document.addEventListener('DOMContentLoaded', function () {
         'Lunch and Dinner on request (charged separately)',
       ],
       images: [
-        'https://maneyangala.b-cdn.net/images/stay/BAT_5812.jpg',
-        'https://maneyangala.b-cdn.net/images/stay/BAT_5840.jpg',
-        'https://maneyangala.b-cdn.net/images/stay/BAT_5851.jpg',
-        'https://maneyangala.b-cdn.net/images/stay/BAT_5902.jpg',
-        'https://maneyangala.b-cdn.net/images/stay/BAT_5959.jpg',
-        'https://maneyangala.b-cdn.net/images/stay/BAT_6060.jpg'
+        './images/BAT_5812.webp',
+        './images/BAT_5858.webp',
+        './images/BAT_5902.webp',
+        './images/BAT_6060.webp',
+        // 'https://maneyangala.b-cdn.net/images/stay/BAT_5959.jpg',
+        // 'https://maneyangala.b-cdn.net/images/stay/BAT_6060.jpg'
       ]
     },
     'experience-event': {
@@ -135,11 +135,11 @@ document.addEventListener('DOMContentLoaded', function () {
         'Kitchen space available',
       ],
       images: [
-        'https://maneyangala.b-cdn.net/images/event/BAT_5860.jpg',
-        'https://maneyangala.b-cdn.net/images/event/IMG_5835.jpg',
-        'https://maneyangala.b-cdn.net/images/event/BAT_5838.jpg',
-        'https://maneyangala.b-cdn.net/images/event/BAT_5891.jpg',
-        'https://maneyangala.b-cdn.net/images/event/BAT_6090.jpg'
+        './images/BAT_5835.webp',
+        './images/BAT_5838.webp',
+        './images/BAT_5860.webp',
+        './images/BAT_6090.webp',
+        './images/IMG_2728.webp'
       ]
     }
   };
