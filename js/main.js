@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
       ],
       images: [
         './images/BAT_5812.webp',
-        './images/BAT_5858.webp',
+        './images/BAT_5851.webp',
         './images/BAT_5902.webp',
         './images/BAT_6060.webp',
         // 'https://maneyangala.b-cdn.net/images/stay/BAT_5959.jpg',
